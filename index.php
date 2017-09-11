@@ -1,9 +1,10 @@
 <html>
     <head>
         <title>Xdb inc.</title>
+        <link rel="stylesheet" href="style/login-body.css">
     </head>
 
-    <body>
-        <?php echo "Hello world!" ?>
+    <body class="loginBody">
+        <?php echo "Hello there!" ?>
     </body>
 </html>
