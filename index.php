@@ -1,10 +1,18 @@
 <html>
+
     <head>
-        <title>Xdb inc.</title>
-        <link rel="stylesheet" href="style/login-body.css">
+        <title>Xdb</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
 
-    <body class="loginBody">
-        <?php echo "Hello there!" ?>
+    <body>
+        <div class="headerDiv">
+            xdb
+        </div>
+
+        <div class="loginBox">
+
+        </div>
     </body>
+
 </html>
