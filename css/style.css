@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-image: url(../images/login-bg.jpg);
+    background-color: #fefefe;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: cursive;
+
+    top: 0px;
+    position: absolute;
+
+    height: 10%;
+    width: 100%;
+
+    vertical-align: middle;
+    padding: 0px 50px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+.footer{
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: cursive;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+
+    height: 4%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+form {
+    width: 20%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    color: black;
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #888;
+    color: black;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.container {
+    margin: 70% 0px;
+    padding: 16px;
+}
+

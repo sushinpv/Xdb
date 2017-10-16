@@ -2,30 +2,28 @@
 
     <head>
         <title>Xdb</title>
-        <link rel="stylesheet" type="text/css" href="style/login-style.css"/>
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
 
     <body>
-       <div class="body-style">
-            <div class="header-div">
 
-            </div>
+        <div class="header"> Xdb</div>
 
-            <div>
-                <div class="login-box">
-                    <div class="div-title">
-                        Welcome
-                    </div>
+        <form action="next.php">
 
-                    <form class="input-field">
-                        <input type="text" placeholder="Login ID">
-                        <input type="password" placeholder="Password">
-                    </form>
+          <div class="container">
 
-                </div>
-            </div>
-        </div>
+            <input type="text" placeholder="Login ID" name="username"/>
+
+            <input type="password" placeholder="Password" name="passwd"/>
+
+            <button type="submit">Login</button>
+          </div>
+
+        </form>
+
+        <div class="footer"> Xdb inc. 2017</div>
+
     </body>
 
 </html>
