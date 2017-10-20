@@ -1,3 +1,4 @@
 <?php
-    #$connect = mysql_connect("localhost","root","") or die(mysql_error());
+    $connection = mysqli_connect("localhost","root","") or die(mysqli_error());
+    mysqli_select_db($connection,"xdb") or die(mysqli_error());
 ?>

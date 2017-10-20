@@ -2,7 +2,6 @@
     require("pages/connect.php");
 ?>
 
-
 <html>
 
     <head>
