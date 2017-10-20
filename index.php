@@ -1,15 +1,23 @@
+<?php
+    require("pages/connect.php");
+?>
+
+
 <html>
 
     <head>
-        <title>Xdb</title>
+        <title>Xdb Pace</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
 
     <body>
 
-        <div class="header"> Xdb</div>
+        <div class="header"></div>
+        <p id="head-text" class="unselectable">
+                Xdb
+        </p>
 
-        <form action="next.php">
+        <form action="index.php" method="post">
 
           <div class="container">
 
@@ -22,7 +30,10 @@
 
         </form>
 
-        <div class="footer"> Xdb inc. 2017</div>
+        <div class="footer"></div>
+        <p id="foot-text" class="unselectable">
+                Xdb inc. 2017
+        </p>
 
     </body>
 
