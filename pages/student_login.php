@@ -1,9 +1,13 @@
+<?php
+    session_start();
+?>
+
 <html>
 
     <head>
-        <title>Xdb | Pace Login</title>
-        <link rel="shortcut icon" href="images/title_logo.png"/>
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <title>Xdb | Student</title>
+        <link rel="shortcut icon" href="../images/title_logo.png"/>
+        <link rel="stylesheet" type="text/css" href="../css/student_style.css"/>
     </head>
 
     <body>
@@ -13,15 +17,13 @@
                         Xdb
                 </p>
 
-                <form action="pages/sign_in.php" method="post">
+                <form>
 
                   <div class="container">
 
-                    <input type="text" placeholder="Login ID" name="username" maxlength="10">
-
-                    <input type="password" placeholder="Password" name="passwd">
-
-                    <button type="submit">Login</button>
+                    <p class="error-message">
+                        Student details will be displayed here.
+                    </p>
 
                     </div>
 

@@ -1,9 +1,9 @@
 <html>
 
     <head>
-        <title>Xdb | Pace Login</title>
-        <link rel="shortcut icon" href="images/title_logo.png"/>
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <title>Xdb | Login Error</title>
+        <link rel="shortcut icon" href="../images/title_logo.png"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     </head>
 
     <body>
@@ -13,15 +13,16 @@
                         Xdb
                 </p>
 
-                <form action="pages/sign_in.php" method="post">
+                <form action="../index.php" method="post">
 
                   <div class="container">
 
-                    <input type="text" placeholder="Login ID" name="username" maxlength="10">
+                    <p class="error-message">
+                        The login credentials provided isn't valid.<br>
+                        Please try again!
+                    </p>
 
-                    <input type="password" placeholder="Password" name="passwd">
-
-                    <button type="submit">Login</button>
+                    <button type="submit">Retry</button>
 
                     </div>
 
