@@ -89,6 +89,14 @@ button:hover {
     box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 #333;
 }
 
+.empty-box{
+    padding: 0px 10%;
+    margin: 0px 2%;
+    width: 100px;
+    display: inline;
+    border: 1px solid white;
+}
+
 .unselectable {
 -webkit-user-select: none;
 -khtml-user-select: none;

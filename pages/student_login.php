@@ -25,10 +25,6 @@
 
         <div class="container">
 
-            <p>
-                Student details will be displayed here.
-            </p>
-
         </div>
     </body>
 
