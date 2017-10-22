@@ -7,18 +7,9 @@ body{
     background-attachment: fixed;
 }
 
-.step-one{
-    background-color: rgba(0,0,0,1);
-    position: relative;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.step-two{
-    position: relative;
+.bg-shade{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
     z-index: 0;
     top: 0;
     left: 0;
@@ -36,7 +27,7 @@ body{
 }
 
 #head-text{
-    color: whitesmoke;
+    color: white;
     font-family: cursive;
     text-align: left;
     font-size: 40px;
@@ -56,7 +47,7 @@ body{
 }
 
 #foot-text{
-    color: whitesmoke;
+    color: white;
     font-family: cursive;
     font-family: monospace;
     text-align: left;
@@ -70,7 +61,7 @@ body{
 form {
     width: 20%;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    box-shadow: 0 4px 8px 0 #444, 0 6px 20px 0 #444;
 }
 
 input[type=text], input[type=password] {
