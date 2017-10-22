@@ -107,3 +107,10 @@ user-select: none;
     font-family: monospace;
     color: white;
 }
+
+.error-message-bottom{
+    font-size: 10px;
+    font-family: cursive;
+    color: white;
+}
+

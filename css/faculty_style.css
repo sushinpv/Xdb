@@ -2,7 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    background-image: url(../images/login-bg.jpg);
+    background-image: url(../images/faculty-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -64,17 +64,6 @@ form {
     box-shadow: 0 4px 8px 0 #444, 0 6px 20px 0 #444;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: none;
-    color: black;
-    background-color: #eee;
-    box-sizing: border-box;
-}
-
 button {
     background-color: #888;
     color: black;
@@ -90,8 +79,22 @@ button:hover {
 }
 
 .container {
-    margin: 70% 0px;
-    padding: 16px;
+    position: relative;
+    color: white;
+
+    height: 78%;
+
+    padding: 10px 10px;
+    margin: 90px 20px;
+    box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 #333;
+}
+
+.empty-box{
+    padding: 0px 10%;
+    margin: 0px 2%;
+    width: 100px;
+    display: inline;
+    border: 1px solid white;
 }
 
 .unselectable {
@@ -100,10 +103,4 @@ button:hover {
 -moz-user-select: none;
 -o-user-select: none;
 user-select: none;
-}
-
-/* style for sign-in error page */
-.error-message{
-    font-family: monospace;
-    color: white;
 }

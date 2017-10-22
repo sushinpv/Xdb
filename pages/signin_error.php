@@ -24,6 +24,10 @@
 
                     <button type="submit">Retry</button>
 
+                    <p class="error-message-bottom">
+                        Contact administrator if you're lost.
+                    </p>
+
                     </div>
 
                 </form>

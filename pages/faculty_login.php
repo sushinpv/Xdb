@@ -17,22 +17,22 @@
                         Xdb
                 </p>
 
-                <form>
-
-                  <div class="container">
-
-                    <p class="error-message">
-                        Faculty details will be displayed here.
-                    </p>
-
-                    </div>
-
-                </form>
-
                 <div class="footer"></div>
                 <p id="foot-text" class="unselectable">
                         Xdb inc. 2017
                 </p>
+        </div>
+
+        <div class="container">
+            <div class="empty-box">
+                dfdfddfsdfdgfdgf
+            </div>
+            <div class="empty-box">
+                dfdfd
+            </div>
+            <div class="empty-box">
+                dfdfd
+            </div>
         </div>
     </body>
 
