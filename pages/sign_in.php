@@ -10,6 +10,8 @@
     mysqli_select_db($connect,"xdb") or die(mysqli_error());
 
     #copy credentials from user input $_POST
+    // Always try to execute the mysql query with prepare and bind statement instand of using  stripslashes and mysqli_real_escape_string
+    // Dont directly save the passwords to the database. Encrypt and save. You should care about the privcy of users.
     $user = stripslashes($user);
     $passwd = stripslashes($passwd);
     $user = mysqli_real_escape_string($connect,$user);
